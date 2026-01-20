@@ -1,0 +1,7 @@
+{
+  "name": "Sofia Virtual Assistant",
+  "description": "A bilingual (PL/RU) AI assistant specialized in Polish accounting, business advice, and document summarization with legal citations.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
