@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, GenerateContentResponse, Modality } from "@google/genai";
-import { Language } from "../types";
+import { Language } from "../types.ts";
 
 // Always use process.env.API_KEY directly for initializing the SDK as per guidelines
 
