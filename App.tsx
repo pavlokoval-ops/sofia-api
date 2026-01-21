@@ -2,7 +2,7 @@
 import React, { useState, useRef } from 'react';
 import { Language, Message } from './types';
 import { translations } from './translations';
-import { getGeminiResponse, generateSpeech, decodeAudioData } from './services/geminiService';
+import { getGeminiResponse, generateSpeech, decodeAudioData } from './geminiService';
 import { 
   Languages, 
   Send, 
