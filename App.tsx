@@ -289,7 +289,6 @@ const App: React.FC = () => {
             <div className="flex justify-start">
               <div className="bg-white border-2 border-blue-50 p-5 md:p-6 rounded-[1.5rem] md:rounded-[2rem] rounded-tl-none shadow-xl flex items-center gap-4 md:gap-5">
                 <div className="w-10 h-10 md:w-12 md:h-12 bg-blue-600 rounded-full flex items-center justify-center shadow-lg shadow-blue-100">
-                  {/* Fixed duplicate attribute: merged two className declarations into one */}
                   <Loader2 className="animate-spin text-white md:w-7 md:h-7" size={24} />
                 </div>
                 <span className="text-slate-800 font-black text-base md:text-lg tracking-tight uppercase">{t.summarizing}</span>
